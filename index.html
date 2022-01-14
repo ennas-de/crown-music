@@ -9,10 +9,10 @@
 		<div class="navbar">
 			<img src="public/images/logo.png" class="logo">
 			<ul>
-				<li><a href="#"></a>Home</li>
-				<li><a href="#"></a>Musics</li>
-				<li><a href="#"></a>My Collections</li>
-				<li><a href="#"></a>Profile</li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Musics</a></li>
+				<li><a href="#">My Collections</a></li>
+				<li><a href="#">Profile</a></li>
 			</ul>
 		</div>
 
@@ -39,24 +39,7 @@
 	</div>
 
 
-	<!-- <link rel="stylesheet" type="text/css" href="public/js/index.js"> -->
-	<script type="text/javascript">
-		let mySong = document.getElementById("mySong");
-		let icon   = document.getElementById("icon");
-		let command = document.getElementById("command");
-
-		icon.onclick = function() {
-			if(mySong.paused) {
-				mySong.play();
-				icon.src = "public/images/pause.png";
-				command.innerHTML = "Click to pause";
-			} else {
-				mySong.pause();
-				icon.src = "public/images/play.png";
-				command.innerHTML = "Click to play";
-			}
-
-		}
-	</script>
+	<script type="text/javascript" src="public/js/script.js"></script>
+	
 </body>
 </html>
