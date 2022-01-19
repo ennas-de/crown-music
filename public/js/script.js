@@ -5,11 +5,11 @@ let mySong = document.getElementById("mySong");
 		icon.onclick = function() {
 			if(mySong.paused) {
 				mySong.play();
-				icon.src = "public/images/pause.png";
+				icon.src = "images/pause.png";
 				command.innerHTML = "Click to pause";
 			} else {
 				mySong.pause();
-				icon.src = "public/images/play.png";
+				icon.src = "images/play.png";
 				command.innerHTML = "Click to play";
 			}
 
